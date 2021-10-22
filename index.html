@@ -9,21 +9,111 @@
 <body>
     <div id="div-general">
         <div id="side">
-            <ul>
-                <li>Intro/Objectifs</li>
-                <li>Parcours scolaire:</li>
-                <li>Mes compétences:</li>
-                <li>Me contacter:</li>
+            <ul class="side-wrapper">
+                <li class="side-wrapper">Intro/Objectifs</li>
+                <li class="side-wrapper">Parcours scolaire:</li>
+                <li class="side-wrapper1">Mes compétences:</li>
+                <li class="side-wrapper2">Me contacter:</li>
             </ul>
         </div>
     </div>
 
     <div id="principal-page">
         <h1>NOAH DECROIX</h1>
-        <p>Téléphone: 06 33 99 02 53</p>
-        <p>Mail: noah.decroix3@gmail.com</p>
-        <p>Adresse: MF du quesnes au leu 59530 Locquignol</p>
+
+        <p class="contact">Téléphone: 06 33 99 02 53</p>
+
+        <p class="contact">Mail: noah.decroix3@gmail.com</p>
+
+        <p class="contact">Adresse: MF du quesnes au leu 59530 Locquignol</p>
+
+        <h2 id="presentation">Présentation</h2>
+
+        <p>Je m'appelle Noah j'ai 18 ans je suis actuellement en formation Developpeurs WEB et WEB applications <br>
+            à Fourmies. Après cette formation je souhaiterai integré une entreprise de Dev WEB.
+        </p>
+
+        <h2 id="parcours">Parcours scolaire</h2>
+        <ul>
+            <li><span>2020-2021</span>
+                <ul>
+                    <li>1er semetre DUT informatique effectué à Maubeuge</li>
+                </ul>
+            </li>
+
+            <li><span>2019-2020</span>
+                <ul>
+                    <li>Lycée P.Forest à Maubeuge terminal STI2D</li>
+                    <li>Obtention baccalauréat mention bien</li>
+                </ul>
+            </li>
+
+            <li><span>2018-2019</span>
+                <ul>
+                    <li>Lycée P.Forest à Maubeuge 1ère STI2D</li>
+                </ul>
+            </li>
+
+            <li><span>2017-2018</span>
+                <ul>
+                    <li>2nd Général Lycée des Nerviens à Bavay</li>
+                </ul>
+            </li>
+        </ul>
+        <h2 id="competences">Compétences:</h2>
+        <div id="barre-progression">
+            <div>
+                <label for="HTML">HTML:</label>
+                <progress id="HTML" value="100" max="100">100%</progress>
+            </div>
+
+            <div>
+                <label for="CSS">CSS:</label>
+                <progress id="CSS" value="62" max="100">62%</progress>
+            </div>
+
+            <div>
+                <label for="GitHub">GitHub:</label>
+                <progress id="GitHub" value="33" max="100">33%</progress>
+            </div>
+
+        </div>
+
+        <h2 id="formulaire">Commentaire(s)</h2>
+
+        <div>
+            <form action="mailto: noah.decroix3@gmail.com" method="post">
+                <div>
+                    <label for="name">Nom</label>
+                    <input id="name" type="text" name="user_name" placeholder="Entrez votre Nom">
+                </div>
+
+                <div>
+                    <label for="lastname">Prénom:</label>
+                    <input id="lastname" type="text" placeholder="Entrez votre Prénom">
+                </div>
+
+                <div>
+                    <label for="mail">Adresse mail:</label>
+                    <input id="mail" type="email" placeholder="votreadresse@exemple.com">
+                </div>
+
+                <div>
+                    <label for="commentaire">Votre commentaire:</label>
+                </div>
+                <div>
+                    <textarea id="commentaire" name="textarea" cols="40" rows="10"></textarea>
+                </div>
+                
+                <div>
+                    <input id="envoyer" type="submit">
+                </div>
+            </form>
+        </div>
     </div>
+    <a href="https://github.com/Noziho"><i class="fab fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/noah-decroix-7b5b48223/"><i class="fab fa-linkedin"></i></a>
+    <script src="https://kit.fontawesome.com/f06b2f84ad.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -9,7 +9,7 @@ body {
 
 #side {
     width: 20%;
-    height: 200%;
+    height: 271%;
     border: none;
     background: lightgrey;
     position: absolute;
@@ -17,16 +17,17 @@ body {
 
 }
 
-ul, li {
+.side-wrapper {
     list-style: none;
     text-decoration: none;
 }
 
-li {
+.side-wrapper li{
     padding-top: 180px;
     color: #ffb300;
     line-height: 100px;
     font-size: 33px;
+    font-weight: bold;
 }
 
 h1 {
@@ -38,15 +39,103 @@ h1 {
     position: absolute;
     right: 120px;
     width: 70%;
-    height: 195%;
+    height: 266%;
     background-color: white;
-    box-shadow: 2px 2px 2px 2px;
+    box-shadow: 27px 0 50px 5px rgba(0,0,0,0.34);
     text-align: center;
     padding: 20px;
 }
-
-p {
+.contact {
     display: inline;
     margin: auto;
     padding: 20px;
+}
+
+h2#presentation {
+    text-align: left;
+    color:#ffb300;
+    margin-top: 150px;
+}
+
+p {
+    text-align: left;
+}
+
+ul, li {
+    text-align: left;
+    padding: 5px;
+    margin-left: 5px;
+    list-style: none;
+}
+
+span {
+    font-weight: bolder;
+}
+
+h2#parcours {
+    text-align: left;
+    color: #ffb300;
+    margin-top: 220px;
+}
+
+.side-wrapper1 {
+    margin-top: 200px;
+}
+
+div#barre-progression {
+    margin-top: 40px;
+    text-align: left;
+}
+
+#barre-progression > div {
+    padding: 20px;
+}
+
+h2#competences {
+    color: #ffb300;
+    text-align: left;
+    margin-top: 100px;
+}
+
+.side-wrapper2 {
+    margin-top: 40px;
+}
+
+form {
+    text-align: left;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+textarea {
+    resize: none;
+}
+
+h2#formulaire {
+    color: #ffb300;
+    text-align: left;
+    margin-top: 70px;
+}
+
+form > div {
+    margin: 10px;
+}
+
+.fa-github {
+    position: absolute;
+    top: 31px;
+    left: 24px;
+}
+
+.fa-linkedin {
+    position: absolute;
+    top: 31px;
+    left: 84px;
+}
+
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: black;
 }
